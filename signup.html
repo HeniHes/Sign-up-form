@@ -26,10 +26,25 @@
         </div>
         <div class="form-container">
           <form action="#" method="post">
-            <label for="first-name">First Name</label>
-            <input type="text" id="first-name" name="first-name" required>
-          </form>
+            <div class="input-container">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" maxlength="4" name="first-name" placeholder="name" required>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="email" required>
+              <label for="password">Password</label>
+              <input type="password" id="first-name" name="first-name" placeholder="name" required>
+            </div>
+            <div class="input-container">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last-name" placeholder="last-name" required>
+              <label for="email">Email</label>
+              <input type="number" id="phone-number" name="phone-number" placeholder="email" required>
+              <label for="confirm-password">Password</label>
+              <input type="password" id="first-name" name="first-name" placeholder="name"  required>
+            </div>
         </div>
+        <button class="btn-create" type="submit">Create an Account</button> </form>
+
     </div>
   </body>
 </html>
